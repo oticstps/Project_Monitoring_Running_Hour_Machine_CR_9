@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 CREATE TABLE `rh_imc_29` (
   `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
   `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
