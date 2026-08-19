@@ -27,14 +27,6 @@ CREATE TABLE `rh_imc_10` (
   PRIMARY KEY (`idPrimary`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
-
-
-
-
-
-
-
 CREATE TABLE `rh_imc_21` (
   `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
   `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
@@ -122,7 +114,6 @@ CREATE TABLE `rh_imc_229` (
 
 
 
-
 CREATE TABLE `rh_imc_29_trouble` (
   `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
   `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -151,11 +142,6 @@ CREATE TABLE `rh_imc_10_trouble` (
   `status` VARCHAR(50) COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`idPrimary`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-
-
-
-
 
 CREATE TABLE `rh_imc_21_trouble` (
   `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
@@ -222,7 +208,21 @@ CREATE TABLE `rh_imc_23_trouble` (
   PRIMARY KEY (`idPrimary`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+CREATE TABLE `rh_imc_45_trouble` (
+  `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `name_line` VARCHAR(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `status` VARCHAR(50) COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`idPrimary`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+CREATE TABLE `rh_imc_229_trouble` (
+  `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `name_line` VARCHAR(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `status` VARCHAR(50) COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`idPrimary`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 
