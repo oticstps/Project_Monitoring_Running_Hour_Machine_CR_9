@@ -1,0 +1,31 @@
+9/7/2026, 2:59:26 PMnode: debug 1
+polling : msg.payload : array[16]
+array[16]
+[0 … 9]
+0: true
+1: false
+2: true
+3: false
+4: true
+5: false
+6: true
+7: false
+8: false
+9: true
+[10 … 15]
+10: false
+11: true
+12: false
+13: true
+14: false
+15: true
+9/7/2026, 2:59:27 PMnode: debug 1
+polling : msg.payload : array[16]
+array[16]
+[0 … 9]
+[10 … 15]
+9/7/2026, 2:59:27 PMnode: debug 1
+polling : msg.payload : array[16]
+[ true, false, true, false, true, false, true, false, false, true … ]
+9/7/2026, 2:59:29 PMnode: debug 1
+polling : msg.payload : array[16]

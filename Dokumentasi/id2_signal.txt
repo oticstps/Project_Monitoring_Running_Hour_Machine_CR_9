@@ -1,0 +1,21 @@
+[ 9753, 0, 0, 9766, 9768, 0, 9735, 0 ]
+9/7/2026, 3:01:55 PMnode: debug 1
+polling : msg.payload : array[8]
+array[8]
+0: 9752
+1: 6
+2: 5
+3: 9765
+4: 9767
+5: 4
+6: 9734
+7: 3
+9/7/2026, 3:01:56 PMnode: debug 1
+polling : msg.payload : array[8]
+[ 9753, 5, 5, 9766, 9768, 4, 9735, 5 ]
+9/7/2026, 3:01:57 PMnode: debug 1
+polling : msg.payload : array[8]
+[ 9754, 8, 6, 9766, 9769, 7, 9734, 6 ]
+9/7/2026, 3:01:58 PMnode: debug 1
+polling : msg.payload : array[8]
+[ 9754, 11, 12, 9765, 9769, 10, 9734, 10 ]
