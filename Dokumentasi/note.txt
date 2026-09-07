@@ -1,1 +1,20 @@
-tes
+9/7/2026, 6:22:13 PMnode: debug 4
+input_id_3 : msg.payload : Object
+object
+slave: "R9E"
+raw_data: "00000000"
+jumlah_data: 8
+reserved: "0000"
+device: object
+9/7/2026, 6:22:14 PMnode: debug 2
+input_id_1 : msg.payload : Object
+object
+slave: "R9A"
+raw: "0000000000000000"
+data: object
+9/7/2026, 6:22:14 PMnode: debug 3
+input_id_2 : msg.payload : Object
+object
+slave: "R9C"
+raw_data: "00010000"
+jumlah_data: 8
