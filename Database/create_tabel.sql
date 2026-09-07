@@ -1,3 +1,31 @@
+CREATE TABLE rh_idh_23 (
+    idPrimary INT(11) NOT NULL AUTO_INCREMENT,
+    created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    name_line VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    status VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+    PRIMARY KEY (idPrimary)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE rh_idh_23_run (
+    idPrimary INT(11) NOT NULL AUTO_INCREMENT,
+    created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    name_line VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    status VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+    PRIMARY KEY (idPrimary)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+CREATE TABLE rh_idh_23_trouble (
+    idPrimary INT(11) NOT NULL AUTO_INCREMENT,
+    created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    name_line VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+    status VARCHAR(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+    PRIMARY KEY (idPrimary)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+
 CREATE TABLE `rh_imc_29` (
   `idPrimary` INT(11) NOT NULL AUTO_INCREMENT,
   `created_at` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
